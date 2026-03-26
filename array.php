@@ -8,7 +8,7 @@ print_r($frutas);
 
 echo "<br>";
 
-// forma de eliminar un elemento de un array
+// forma de eliminar un elemento de un array por busqueda
 $frutaEliminar = "kiwi";
 
 $llave = array_search($frutaEliminar, $frutas);
